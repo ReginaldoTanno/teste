@@ -37,7 +37,7 @@ def test_fraude_detectada_valor_alto():
     # ARRANGE (Preparar)
     payload = {
         "valor": 15000,  # Acima do threshold
-        "hora_do_dia": 14,
+        "hora_do_dia": 3,
         "distancia_ultima_compra_km": 50,
         "numero_transacoes_hoje": 3,
         "idade_conta_dias": 100

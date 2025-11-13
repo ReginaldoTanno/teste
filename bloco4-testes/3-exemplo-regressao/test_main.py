@@ -5,7 +5,7 @@ Mas vão FALHAR com main_quebrado.py (detectando a regressão!)
 """
 
 from fastapi.testclient import TestClient
-from main import app
+from main_quebrado import app
 
 client = TestClient(app)
 
